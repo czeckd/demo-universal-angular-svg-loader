@@ -5,7 +5,8 @@ import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
-  template: '<router-outlet></router-outlet>',
+  styleUrls: ['./app.component.css'],
+  templateUrl: './app.component.html',
 })
 export class AppComponent implements OnInit {
   constructor(

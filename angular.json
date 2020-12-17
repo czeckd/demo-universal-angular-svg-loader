@@ -1,8 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
-  "defaultProject": "app",  
+  "defaultProject": "app",
   "projects": {
     "app": {
       "root": "",
@@ -107,14 +107,6 @@
                 }
               ],
               "outputHashing": "media"
-            },
-            "spa": {
-              "fileReplacements": [
-                {
-                  "replace": "src/app/app-routes.ts",
-                  "with": "src/app/app-routes.spa.ts"
-                }
-              ]
             }
           }
         },
@@ -191,5 +183,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "478d37cf-2696-41a0-93d8-5cda5e344086"
   }
 }
